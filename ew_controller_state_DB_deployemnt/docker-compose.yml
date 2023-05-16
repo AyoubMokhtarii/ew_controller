@@ -1,0 +1,33 @@
+services:
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:3.6
+    environment:
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+    volumes:
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    env_file:
+      - ./.env
+      #- /home/ayoub/Desktop/_EVERY-WAN_workspace/mongoDB-deployemnt/.env
+    ports:
+      - "27017:27017"
+    networks:
+      mynet:
+        ipv4_address: 177.0.176.85
+        #ipv4_address: 177.0.128.61
+        # pv4_address: 177.0.112.53
+        # ipv4_address: 177.0.120.57
+        #ipv4_address: 177.0.248.121
+        
+        
+        
+networks:
+  mynet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 177.0.176.0/24
+          

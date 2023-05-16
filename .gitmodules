@@ -1,0 +1,9 @@
+[submodule "src/srv6-sdn-controller-state"]
+	path = src/srv6-sdn-controller-state
+	url = https://github.com/AyoubMokhtarii/srv6-sdn-controller-state.git
+[submodule "src/srv6-sdn-control-plane"]
+	path = src/srv6-sdn-control-plane
+	url = https://github.com/AyoubMokhtarii/srv6-sdn-control-plane.git
+[submodule "src/srv6-sdn-openssl"]
+	path = src/srv6-sdn-openssl
+	url = https://github.com/AyoubMokhtarii/srv6-sdn-openssl.git
