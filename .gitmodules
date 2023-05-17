@@ -7,3 +7,6 @@
 [submodule "src/srv6-sdn-openssl"]
 	path = src/srv6-sdn-openssl
 	url = https://github.com/AyoubMokhtarii/srv6-sdn-openssl.git
+[submodule "src/srv6-properties-generators"]
+	path = src/srv6-properties-generators
+	url = https://github.com/AyoubMokhtarii/srv6-properties-generators.git
