@@ -5,6 +5,7 @@ db.createCollection('devices');
 db.createCollection('tenants');
 db.createCollection('overlays');
 db.createCollection('configs');
+db.createCollection('monitoringStats');
 db.tenants.createIndex( { tenantid: 1 } );
 db.devices.createIndex( { tenantid: 1 } )
 db.devices.createIndex( { deviceid: 1 } )
@@ -17,6 +18,7 @@ tenant1 = {
    "configured":true,
    "token":"ew-token",
    "vtep_ip_index":NumberInt(-1),
+   "overlay_ip_net_index" : NumberInt(0),
    "reu_vtep_ip_addr":[
       
    ],
