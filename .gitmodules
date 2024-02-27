@@ -1,12 +1,13 @@
 [submodule "src/srv6-sdn-controller-state"]
 	path = src/srv6-sdn-controller-state
-	url = https://github.com/AyoubMokhtarii/srv6-sdn-controller-state.git
+	url = git@github.com:AyoubMokhtarii/srv6-sdn-controller-state.git
 [submodule "src/srv6-sdn-control-plane"]
 	path = src/srv6-sdn-control-plane
-	url = https://github.com/AyoubMokhtarii/srv6-sdn-control-plane.git
+	url = git@github.com:AyoubMokhtarii/srv6-sdn-control-plane.git
 [submodule "src/srv6-sdn-openssl"]
 	path = src/srv6-sdn-openssl
-	url = https://github.com/AyoubMokhtarii/srv6-sdn-openssl.git
+	url = git@github.com:AyoubMokhtarii/srv6-sdn-openssl.git
 [submodule "src/srv6-properties-generators"]
 	path = src/srv6-properties-generators
-	url = https://github.com/AyoubMokhtarii/srv6-properties-generators.git
+	url = git@github.com:AyoubMokhtarii/srv6-properties-generators.git
+		
